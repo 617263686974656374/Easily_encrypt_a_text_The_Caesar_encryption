@@ -23,7 +23,7 @@ public class KMS1_05_LE_04_02_KRC {
                 for (int j = 0; j < alphabet.length; j++) {
                     oneAlpha = alphabet[j];
                     if (oneChar == oneAlpha) {
-                        newAlpha = alphabet[(j + caesar) % alphabet.length];// *
+                        newAlpha = alphabet[(j + caesar) % alphabet.length];
                         newUser += newAlpha;
                     }
                 }
