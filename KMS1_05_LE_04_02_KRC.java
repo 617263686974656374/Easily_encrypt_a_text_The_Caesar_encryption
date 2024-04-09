@@ -32,7 +32,3 @@ public class KMS1_05_LE_04_02_KRC {
         System.out.println(newUser);
     }
 }
- // * chat gpt gave me this logic :
-// char[] abc = {'a', 'b', 'c'};
-//int index = (1 + 2) % abc.length; // (1 + 2) % 3 = 0
-//char result = abc[index]; // return 'a'
